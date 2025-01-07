@@ -16,6 +16,7 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <div class="navbar-nav container d-flex justify-content-between">
           <div class="d-flex">
+            <p class="nav-link text-light ms-5"><i>🎅Let's Buy🛒</i></p>
             <router-link class="nav-link" to="/">Home</router-link>
             <router-link class="nav-link" to="/about">About</router-link>
           </div>
@@ -127,6 +128,9 @@ body {
 }
 .nav-link {
   color: white;
+}
+.nav-link.nav-icon{
+  cursor:arrow;
 }
 .nav-row {
   display: flex;
