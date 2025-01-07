@@ -16,6 +16,7 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <div class="navbar-nav container d-flex justify-content-between">
           <div class="d-flex">
+            <p class="nav-link"><i>🎅Let's buy🛒</i></p>
             <router-link class="nav-link" to="/">Home</router-link>
             <router-link class="nav-link" to="/about">About</router-link>
           </div>
